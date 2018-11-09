@@ -1,0 +1,4 @@
+(executables
+    (names lwt_server)
+    (modes (best exe))
+    (libraries httpaf httpaf-lwt lwt lwt.unix yojson core))
